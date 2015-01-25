@@ -1,0 +1,60 @@
+$dark: #13a2af;
+$light: #3be2e2;
+$blue: #1b6fb5;
+$font1: arial, sans-serif;
+$font2: helvetica, sans-serif;
+
+body{
+  background-color: $dark;
+}
+
+.wrapper {
+  background-color: $light;
+  margin: 0 auto;
+  height: 400px;
+  width: 750px;
+  box-shadow: 5px 5px 10px #0c8783;
+}
+h1 {
+  padding-top: 75px;
+  font-size: 36px;
+  font-family: $font1;
+  font-weight: bold;
+  color: $blue;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: $font2;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: $blue;
+  text-align: center;
+}
+
+.buttonwrap {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  button {
+    background: $blue;
+    border-radius:20px;
+    display: inline-block;
+    margin: 0 auto 0 10px;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      }
+    }
+}
+
+
+h5 {
+  text-align: center;
+
+}

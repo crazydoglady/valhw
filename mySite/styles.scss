@@ -1,0 +1,347 @@
+$red: #690307;
+$cream: #fffbda;
+$mainfont: 'tangerine';
+
+@mixin border-radius ($radius) {
+  border-radius: $radius;
+}
+
+@mixin shadow () {
+  box-shadow: 3px 3px 2px $red;
+}
+
+@mixin hover ($scale) {
+  position: absolute;
+  transform: scale($scale);
+  display: inline-block;
+  @include border-radius (20px);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $cream;
+  font-family: lobster, cursive;
+  width: 100%;
+}
+
+h1 {
+  color: $cream;
+  font-family: $mainfont, serif;
+}
+
+h2 {
+  color: $red;
+  font-family: $mainfont, serif;
+}
+
+h3 {
+  color:$red;
+  font-family: $mainfont, serif;
+  font-size: 24px;
+}
+
+h4, h6, h5 {
+  color: $red;
+}
+
+header , footer {
+  width: 100%;
+  background-color: $red;
+  color: $cream;
+  font-size: 24px;
+  font-family: $mainfont, serif;
+}
+
+/*all nav items*/
+nav {
+  font-family: $mainfont, serif;
+  font-size: 30px;
+  ul {
+    padding: 0;
+    margin: 0 24% 0 24%;
+  li {
+    width: 24%;
+    margin-bottom: 10px;
+    display:inline-block;
+    list-style-type: none;
+    padding: 0;
+    a {
+      margin: 0 24% 0 24%;
+      list-style-text: none;
+      color: $cream;
+      &:hover {
+        color: #b64926;
+      }
+      &:visited:hover {
+        color: $cream;
+      }
+      &:visited {
+        color: $cream;
+      }
+    }
+    }
+  }
+}
+
+nav a:hover {
+  color: #b64926;
+}
+
+nav a:visited:hover {
+  color: $cream;
+}
+
+nav a:visited {
+  color: $cream;
+}
+
+/*home page*/
+
+.center {
+  width: 90%;
+  margin: 0 auto;
+  img {
+    width:100%;
+    @include border-radius (30px);
+    @include shadow ();
+  }
+}
+
+.container {
+  width:50%;
+  margin: 0 25% 0 25%;
+  background-color: $cream;
+  @include shadow ();
+  color: $red;
+}
+
+.box {
+  width: 25%;
+  margin-left: 16% ;
+  display: inline-block;
+  vertical-align: top;
+  img {
+    float: clear;
+    width: 90%;
+    @include border-radius (100%);
+  }
+}
+
+/* about page */
+
+#racecar {
+  height:40%;
+  width: 30%;
+  margin: 5px 5px 5px 5px;
+  float: left;
+  @include border-radius (20px);
+}
+
+.dogs {
+  vertical-align: top;
+  width: 49%;
+  margin-left: 3px;
+  margin-right: auto;
+  display: inline-block;
+  img {
+    margin: 3px 24% 3px 24%;
+    width: 50%;
+    @include border-radius (100%);
+    @include shadow ();
+    & :hover {
+     @include hover (1.0);
+    }
+  }
+}
+
+.dogs a {
+  color: $red;
+  :hover {
+    color: $red;
+  }
+  a:visited {
+    color: $red;
+  }
+}
+
+/*gallery page*/
+
+.webdev {
+  color: $cream;
+  width: 49%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  img {
+    margin:0;
+    width: 125px;
+    height: 125px;
+    @include border-radius (30px);
+    @include shadow ();
+    &:hover {
+      @include hover (2.0);
+    }
+  }
+  }
+
+.gallery {
+  width:49%;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+    img {
+    width: 125px;
+    height: 125px;
+    @include border-radius (20px);
+    @include shadow ();
+    display: inline-block;
+    margin: 0;
+    &:hover {
+      position: absolute;
+      transform: scale(3.0);
+      display: inline-block;
+      @include border-radius (20px);
+    }
+  }
+}
+
+/*--Responsive design below--*/
+
+@media screen and (max-width: 900px){
+
+  h1 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .center {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container {
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+
+  nav li {
+    margin: 0 25% 0 25%;
+    padding: 0;
+    display:inline-block;
+    list-style-type: none;
+    font-family: sans-serif;
+  }
+
+  .dogs {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  .dogs img {
+      width: 50%;
+    }
+  .dogs h2 {
+      font-family: sans-serif;
+      font-size: 36px;
+    }
+
+  .webdev {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .gallery {
+    text-align: center;
+    width: 50%;
+    margin: 0 24% 0 24%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  header , footer {
+    width: 100%;
+    background-color: $red;
+    color: $cream;
+    font-size: 24px;
+    font-family: $mainfont, serif;
+  }
+
+  nav li {
+    margin: 0 auto;
+    width: 70%;
+    display:inline-block;
+    list-style-type: none;
+  }
+
+  .center {
+    width: 100%;
+    margin: 0;
+    display:block;
+    font-family: sans-serif;
+    font-size: 18px;
+    -webkit-animation: open 2s;
+    -moz-animation: open 2s;
+    -o-animation: open 2s;
+    animation: open 2s;
+    img {
+    width: 100%;
+    @include border-radius (30px);
+    box-shadow: 0;
+  }
+}
+
+  .container {
+    width:100%;
+    margin: 0;
+    background-color: $cream;
+    color: $red;
+    font-family: sans-serif;
+    font-size: 18px;
+    h2 {
+    font-size: 36px;
+}
+}
+
+  .box {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    margin-left: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    img {
+    float: clear;
+    width: 100%;
+    @include border-radius (100%);
+  }
+}
+
+
+  .webdev img {
+    width: 300px;
+    height: 300px;
+    box-shadow: none;
+  }
+
+ .gallery img {
+    width: 100%;
+    height: 100%;
+    @include border-radius (20px);
+    box-shadow: none;
+    display: block;
+    margin: 0 24% 0 24%;
+ }
+}

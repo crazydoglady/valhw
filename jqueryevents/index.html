@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Trivia</title>
+
+</head>
+<body>
+  <header>
+    <h1>Welcome to Trivia</h1>
+    <h3>Answers are revealed using the jQuery events. </h3>
+  </header>
+
+<section class="container">
+<div class="circle">
+  <h2>Question 1</h2>
+  <p>What was first film to make over $300million?</p>
+</div>
+<div class="square">
+  <h2>Question 2</h2>
+  <p>What river flows both North and South of the equator?</p>
+</div>
+<div class="circle select">
+  <h2>Question 3</h2>
+  <p>This celebrity is popular for placeholder images and has a large back tattoo of a lizard wearing a top hat.</p>
+    <select name="people"id="people">
+      <option value="Please Choose:"></option>
+      <option value="Nic Cage">Nic Cage</option>
+      <option value="Bill Murray">Bill Murray</option>
+      <option value="Vanilla Ice">Steven Segal</option>
+    </select>
+</div>
+<div class="square">
+  <h2>Question 4</h2>
+  <p>Which country has the most volcanoes?</p>
+</div>
+<div class="circle">
+  <h2>Question 5</h2>
+  <p>Who was on the first cover of Rolling Stone? </p>
+</div>
+<div class="square">
+  <h2>Question 6</h2>
+  <p>In what year did The Legend of Zelda debut?</p>
+</div>
+<div class="circle">
+  <h2>Question 7</h2>
+  <p>Which liquor icon actually served as Lieutenant Governor of Jamaica?</p>
+</div>
+<div class="square">
+  <h2>Question 8</h2>
+  <p>Famous children's author Shel Silverstein wrote which famous Johnny Cash song?</p>
+  </div>
+<div class="circle">
+  <h2>Question 9</h2>
+  <form action="submit">
+    <p>What number, when spelled out, is the only number whose letters are in alphabetical order?</p>
+    <input type="text" name="your answer" value="">
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+<div class="square">
+  <h2>Question 10</h2>
+  <p>A 2011 online poll by Toyota determined the proper plural for the "Prius" to be what?</p>
+  <button>Click Me for Answer</button>
+  </div>
+</section>
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
