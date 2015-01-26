@@ -12,20 +12,39 @@
   <div class="wrapper">
   <header>
     <div class="connect">
-  <a class="iconfb" href"www.facebook.com"><i class="fa fa-facebook"></i></a>
-  <a class="iconrss "href="www.blogarrito.com"><i class="fa fa-rss"></i></a>
-  <a class="icontwt" href="ww.twitter.com"><i class="fa fa-twitter"></i></a>
-  <a class="icontube" href="www.youtube.com"><i class="fa fa-youtube"></i></a>
-    </ul>
-  </div><!-- end connect -->
-    <nav>
-      <ul>
-        <li><h3>- SK8T NEWS -</h3></li>
-        <li><h3>- SKATEBOARDERS -</h3></li>
-        <li><h3>- BOARD DESIGN -</h3></li>
-        <li><h3>- CONTACT US -</h3></li>
+      <ul><h4>SUBSCRIBE</h4>
+        <li>
+          <a class="iconfb" href"www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a>
+        </li>
+        <li>
+          <a class="iconrss "href="www.blogarrito.com"><i class="fa fa-rss fa-2x"></i></a>
+        </li>
+        <li>
+          <a class="icontwt" href="ww.twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li>
+          <a class="icontube" href="www.youtube.com"><i class="fa fa-youtube fa-2x"></i></a>
+        </li>
       </ul>
-    </nav>
+  </div><!-- end connect -->
+    <div> <!--navi-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><h3>- SK8T NEWS -</h3></a>
+          </li>
+          <li>
+            <a href="#"><h3>- SKATEBOARDERS -</h3></a>
+          </li>
+          <li>
+            <a href="#"><h3>- BOARD DESIGN -</h3></a>
+          </li>
+          <li>
+            <a href="#"><h3>- CONTACT US -</h3></a>
+          </li>
+        </ul>
+      </nav>
+    </div> <!--end navi-->
   </header>
   <div class="top">
       <img class="topimg"src="images/top-image.png" alt="">
@@ -46,19 +65,19 @@
     <article>
     <span><a href="#"><h4>Tony Hawk Foundation Raises Big Money At Celeb Fundraiser</h4></a></span>
     <span class="dateline">dateline</span>
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
+    <span class="arttext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
     <a href="#">[ READ MORE ]</a>
     </article>
     <article>
       <span><a href="#"><h4>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h4></a></span>
       <span class="dateline">dateline</span>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
+      <span class="arttext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
       <a href="#">[ READ MORE ]</a>
       </article>
     <article>
       <span><a href="#"><h4>Ray Barbee Talks 'Ban This'</h4></a></span>
       <span class="dateline">Dateline</span>
-      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
+      <span class="arttext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum velit dolorem et recusandae ipsam explicabo, architecto quia cupiditate eligendi, enim error, fuga perferendis similique temporibus magnam mollitia quod sapiente ad?</span>
       <a href="#">[ READ MORE]</a>
       </article>
   </div><!--endofartwrap-->
@@ -92,26 +111,24 @@
 </div><!--end of boardwrap-->
 
 <div class="webform">
-  <section>
-    <h4>Contact us for more Information</h4>
-    <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nam pariatur esse possimus nostrum reiciendis natus laborum. Repudiandae asperiores voluptate delectus, dolorum pariatur magnam minus nihil illum sit in mollitia?</span>
-  <a href="#"><i class="fa fa-facebook"></i></a>
-  <a href="#"><i class="fa fa-rss"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-youtube"></i></a>
-  </section>
-  <form action=" " method="post">
+  <section class="contact">
+    <h5>Contact us for more Information</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nam pariatur esse possimus nostrum reiciendis natus laborum. Repudiandae asperiores voluptate delectus, dolorum pariatur magnam minus nihil illum sit in mollitia?</p>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-rss"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </section>
+  <form class="formfields" action=" " method="post">
     <div>
-      <label for="name">Name:</label>
-      <input type="text" id="name" />
+      <input type="text" id="name" value="YOUR NAME"/>
     </div>
     <div>
-      <label for="mail">E-mail:</label>
-      <input type="email" id="mail" />
+      <input type="email" id="mail" value="YOUR EMAIL"/>
     </div>
     <div>
-      <label for="msg">Message:</label>
-      <textarea id="msg"></textarea>
+      <label for="msg"></label>
+      <textarea id="msg" value="YOUR MESSAGE"></textarea>
     </div>
     <button>SUBMIT</button>
   </form>
