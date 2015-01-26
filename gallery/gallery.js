@@ -10,7 +10,6 @@ $(document).ready(function() {
   //var $sideNav = $('aside').eq(0);
 
 
-
   $("nav a").click(function(event) {
     event.preventDefault();
     var relatedClass = "." + $(this).attr('rel');
@@ -20,7 +19,6 @@ $(document).ready(function() {
     $(relatedClass).addClass('active');
 
       console.log(relatedClass);
-
       if(relatedClass === ".menu") {
           $('aside').hide();
           console.log("hide");
@@ -35,14 +33,17 @@ $('img').click(function(event) {
     event.preventDefault();
     $(this).siblings().hide();
     $(this).addClass("enlarge");
+    $("aside").hide();
+    if ( $(this).hasClass("enlarge")) {
+      $(this).click (function () {
+        $(this).removeClass("enlarge");
+        $(this).siblings().show();
+        $("aside").show();
+      });
+
+    };
   });
 
-$('img .enlarge').click(function(event) {
-  event.preventDefault();
-  $(this).siblings().show();
-  $(this).removeClass("enlarge");
-
-});
 
 
 });
