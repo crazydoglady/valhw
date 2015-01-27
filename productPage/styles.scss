@@ -1,0 +1,58 @@
+$inline: inline-block;
+$green: #91c46c;
+$blue:#1c344c;
+$grey:#F2F2F2;
+$teal: #287d7d;
+$citrus:#c6e070;
+
+body{
+  background: $blue;
+  color: $grey;
+}
+
+nav ul {
+  display: $inline;
+
+}
+
+nav li {
+  display: $inline;
+  a {
+    text-decoration: none;
+    display: $inline;
+    color: $citrus;
+  }
+}
+
+section {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  color: $grey;
+  display: $inline;
+  img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 3px 7px $citrus;
+    display: $inline;
+    margin: 0 auto;
+   }
+}
+
+article, p {
+  display: $inline;
+  width: 45%;
+  margin: 0;
+}
+
+article{
+  border: 5px solid $grey;
+  height: 475px;
+}
+p {
+  width: 300px;
+  margin: 0 0 0 5px;
+}
+button {
+  float: left;
+
+}

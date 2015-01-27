@@ -27,7 +27,7 @@ $(document).ready(function() {
 //q4
   $(".square").eq(1).dblclick(function(event) {
     event.preventDefault();
-    $(this).html("Indonesia");
+    $(this).text("Indonesia");
     $(this).removeClass("circle");
     $(this).addClass("square");
     $(this).css("background", "url('images/indonesiaflag.png')");

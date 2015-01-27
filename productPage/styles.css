@@ -1,0 +1,41 @@
+body {
+  background: #1c344c;
+  color: #F2F2F2; }
+
+nav ul {
+  display: inline-block; }
+
+nav li {
+  display: inline-block; }
+  nav li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #c6e070; }
+
+section {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  color: #F2F2F2;
+  display: inline-block; }
+  section img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 3px 7px #c6e070;
+    display: inline-block;
+    margin: 0 auto; }
+
+article, p {
+  display: inline-block;
+  width: 45%;
+  margin: 0; }
+
+article {
+  border: 5px solid #F2F2F2;
+  height: 475px; }
+
+p {
+  width: 300px;
+  margin: 0 0 0 5px; }
+
+button {
+  float: left; }
