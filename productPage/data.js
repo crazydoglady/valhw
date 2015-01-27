@@ -41,13 +41,13 @@ var products = [
 {
   name: "Second Chances",
   image:  '<img src=../images/billiepaint.png name="ImageName">',
-  description: "This is a sample of a custom dog painting. This one was on a re-used canvas and is of 'Billie' fka 'Hallo Mrs Leen', a retired racing greyhound. Contact for inquiries for your own custom pet project!",
+  description: "This is a sample of a custom dog painting. Contact for inquiries for your own custom pet project!",
   price: "PRICES VARY",
 },
 {
   name: "Ember Sketch",
   image:  '<img src=../images/emberdraw.png name="ImageName">',
-  description: "This is a sample of a custom dog drawing. High quality paper with pencil and drafting markers.Photo on right was used as reference so you can see style of my art. Contact for inquiries for your own custom pet project!",
+  description: "This is a sample of a custom dog drawing. High quality paper with pencil and drafting markers. Contact for inquiries for your own custom pet project!",
   price: "PRICES VARY",
 },
 
