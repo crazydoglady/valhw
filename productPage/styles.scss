@@ -27,6 +27,9 @@ h2 {
   padding: 0;
   text-align: center;
 }
+h4 {
+  text-align: center;
+}
 h5 {
   text-align: center;
   color: $black;
@@ -61,9 +64,7 @@ p {
   margin-right: auto;
   word-wrap: break-word;
 }
-button {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 
+button {
+  display: $inline;
 }

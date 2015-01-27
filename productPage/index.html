@@ -11,18 +11,35 @@
     <h5>Original Artwork by Val K. Harvey</h5>
   </header>
   <section>
-    <article>
-      <h2>The Dahlia</h2>
-      <img src="../images/dahlia.png" alt="">
-      <p>30" x30" oil painting dahlia flower photographed at Chicago Botanical Gardens. 2008</p>
-      <button>$500 BUY NOW</button>
+    <article class="form">
+      <h2>Add New Item</h2>
+      <form action="submit">
+        <h4><label for="title">Item Name</label>
+          <input type="text" name="name" placeholder="Title">
+        </h4>
+        <p>
+          <h4><label for="image"></label>
+          <input type="url" name="image" placeholder="image url">
+          </h4>
+        </p>
+        <p>
+          <h4><label for="description">Item Description</label>
+          <textarea name="description" id="description" cols="30" rows="10"></textarea>
+          </h4>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
     </article>
   </section>
   <footer>
   </footer>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/underscore/underscore.js"></script>
+
 <script src="data.js"></script>
+<script src="templates.js"></script>
 <script src="main.js"></script>
 
 </body>
