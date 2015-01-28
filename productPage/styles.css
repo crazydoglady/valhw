@@ -49,9 +49,15 @@ article {
 p {
   display: block;
   width: 300px;
+  max-height: 100px;
   margin-left: auto;
   margin-right: auto;
   word-wrap: break-word; }
 
 button {
-  display: inline-block; }
+  width: 70px;
+  display: inline-block;
+  margin: 0 0 0 15%;
+  padding: 0;
+  position: relative;
+  top: 20px; }
