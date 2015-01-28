@@ -1,0 +1,91 @@
+$grey: #F5F5F5;
+$blue: #4183C4;
+$icon: #666666;
+$inline: inline-block;
+
+* { border: 1px solid red;}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: $grey;
+  width: 100%;
+  max-height: 150px;
+
+}
+nav {
+  display: $inline;
+}
+nav ul li {
+  list-style-type: none;
+  display: $inline;
+  text-decoration: none;
+  color: $blue;
+}
+
+a {
+  text-decoration: none;
+}
+.searchbar {
+}
+
+
+.profilebar {
+}
+
+.taskbar {
+
+}
+
+.main {
+  width: 70%;
+  margin: 0 0% 0 0;
+  display: $inline;
+}
+.repositories{
+  width: 75%;
+  margin: 0 0 0 20%;
+  display: $inline;
+}
+
+
+.public {
+  width: 70%;
+  margin: 0 0 0 0;
+  color: $blue;
+  display: none;
+
+ li{
+   float: right;
+   width: 70%;
+   margin: 0 0% 0 0;
+   list-style-type: none;
+ }
+}
+
+
+aside {
+  width:20%;
+  height: 100%;
+  float: left;
+  margin: 0 0 0 10%;
+  img{
+    max-height:300px;
+    max-width: 250px;
+    margin: 0 0 0 2%;
+  }
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+}
+
+.active {
+
+}
