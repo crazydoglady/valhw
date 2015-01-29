@@ -3,63 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <title>crazydoglady (Val Harvey)</title>
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/octicons/octicons.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <nav>
-      <ul class="searchbar">
-        <img src="" alt="blackcat">
-        <li>
-          <a href="#">Explore</a>
+  <nav>
+    <ul class="searchbar">
+      <span class="octicon octicon-mark-github"></span>
+      <li>
+        <a href="#">Explore</a>
+      </li>
+      <li>
+        <a href="#">Gist</a>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+      </li>
+      <li>
+        <a href="#">Help</a>
+      </li>
+    </ul>
+  </nav>
+  <nav>
+    <ul class="taskbar">
+      <li>
+        <a href=""><img src="" alt="avatar">crazydoglady</a>
+      </li>
+      <li>
+        <a href="#"><span class="octicon octicon-plus"></span></a>
+      </li>
+      <li>
+        <a href="#"><span class="octicon octicon-inbox"></span></a>
+      </li>
+      <li>
+        <a href="#"><span class="octicon octicon-gear"></span></a>
+      </li>
+      <li>
+        <a href="#"><span class="octicon octicon-sign-out"></span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<aside>
+
+    <p><h4>organizations</h4></p>
+    <img src="" alt="logo">
+  </aside>
+<div class="repos">
+  <nav class="menu">
+    <ul>
+      <li><a href="" rel=".repositories"></a><span class="octicon octicon-repo"></span>  Repositories</li>
+      <li class='activity' ><a href="" rel=".activity"></a><span class="octicon octicon-rss"></span> Public Activity</li>
+    </ul>
+  </nav>
+  <nav class="repoSearchBar">
+    <ul>
+      <li class="repoSearchBar">
+        <input type="text" name="search" placeholder="Find a repository..."> <button>Search</button></li>
+        <li class="repoSearchBar">
+          <a href="#">All</a>
         </li>
-        <li>
-          <a href="#">Gist</a>
+        <li class="repoSearchBar">
+          <a href="#">Public</a>
         </li>
-        <li>
-          <a href="#">Blog</a>
+        <li class="repoSearchBar">
+          <a href="#">Private</a>
         </li>
-        <li>
-          <a href="#">Help</a>
+        <li class="repoSearchBar">
+          <a href="#">Sources</a>
+        </li>
+        <li class="repoSearchBar">
+          <a href="#">Forks</a>
+        </li>
+        <li class="repoSearchBar">
+          <a href="#">Mirrors</a>
+        </li>
+        <li class="repoSearchBar">
+          <a href="#"><button>New</button></a>
         </li>
       </ul>
     </nav>
-    <nav>
-      <ul class="profilebar">
-        <li>
-          <a href="#">Explore</a>
-        </li>
-        <li>
-          <a href="#">Gist</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-          <a href="#">Help</a>
-        </li>
-      </ul>
-    </nav>
-    <nav>
-      <ul class="taskbar">
-        <li>
-          <a href=""><img src="" alt="avatar">crazydoglady</a>
-        </li>
-        <li>
-          <a href="#">plus</a>
-        </li>
-        <li>
-          <a href="#">notifications</a>
-        </li>
-        <li>
-          <a href="#">settings</a>
-        </li>
-        <li>
-          <a href="#">signout</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <section class="repoPost">
+    <!-- <article>
+      <h2>Repo name</h2>
+      <h5>commit message</h5>
+      <h6>update info</h6>
+      <span class="octicon octicon-star"></span>
+      <span class="octicon octicon-git-branch"></span>
+    </article> -->
+  </section>
+</div><!-- end repos -->
+<div class="activity">
+  <section>
+  <article>
+    <span class="octicon octicon-git-commit"></span>
+    <h6>update info</h6>
+    <h2>Activity name</h2>
+    <h5>commit message</h5>
+
+  </article>
+</section>
+</div> <!-- end activity -->
+<footer>
+  <nav class="foot1">
+    <ul>
+      <li><a href="">copyright</a></li>
+      <li><a href="">Terms</a></li>
+      <li><a href="">Privacy</a></li>
+      <li><a href="">Security</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <span class="octicon octicon-mark-github"></span>
+  <nav class="foot2">
+    <ul>
+      <li><a href="">Status</a></li>
+      <li><a href="">API</a></li>
+      <li><a href="">Training</a></li>
+      <li><a href="">Shop</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">About</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<!-- libraries -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+
+<!-- data to use   -->
+<script src="github.json"></script>
+<script src="githubEvents.json"></script>
+<script src="repoData.json"></script>
+
+
+<!-- template file -->
+<script src="templates.js"></script>
+
+<!-- application code -->
+<script src="main.js"></script>
+
+</body>
+</html>
+<!-- <nav>
+
+<div class="wrapper">
   <aside class="profile">
     <img src="images/avatar.jpeg" alt="">
     <span><h1>Val Harvey</h1></span>
@@ -81,64 +170,39 @@
     <p>Organizations</p>
   </aside>
   <div class="main">
-    <section class="repositories active">
-      <span>Search Bar <button>Search</button></span>
-      <nav>
+    <section class="repositories active" rel='repositories'>
+      <nav class="reponav">
         <ul>
-          <li><a href="">All</a></li>
-          <li><a href="">Public</a></li>
-          <li><a href="">Private</a></li>
-          <li><a href="">Sources</a></li>
-          <li><a href="">Forks</a></li>
-          <li><a href="">Mirrors</a></li>
-          <li><a href="">New</a></li>
+          <li><a href="" rel='.repositories'>Search</a></li>
+          <li><a href="" rel='.repositories'>All</a></li>
+          <li><a href="" rel='.repositories'>Public</a></li>
+          <li><a href="" rel='.repositories'>Private</a></li>
+          <li><a href="" rel='.repositories'>Sources</a></li>
+          <li><a href="" rel='.repositories'>Forks</a></li>
+          <li><a href="" rel='.repositories'>Mirrors</a></li>
+          <li><a href="" rel='.repositories'>New</a></li>
         </ul>
       </nav>
-
+      <ul>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+        <li rel='repositories'>Repo Name</li>
+      </ul>
     </section>
     <section class="public">
-      <ul>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-        <li>Activity Post</li>
-      </ul>
-    </section>
-  </div>
-  <footer>
-    <nav class="foot1">
-      <ul>
-        <li><a href="">copyright</a></li>
-        <li><a href="">Terms</a></li>
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Security</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-    <img src="" alt="logo">
-    <nav class="foot2">
-      <ul>
-        <li><a href="">Status</a></li>
-        <li><a href="">API</a></li>
-        <li><a href="">Training</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">About</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <article>
 
-  <script>main.js</script>
-  <script>templates.js</script>
-  <script>data.js</script>
-  <script>github.js</script>
-</body>
-</html>
+    </article>
+    </section>
+  </div>end main
+</div>end wrapper
+-->

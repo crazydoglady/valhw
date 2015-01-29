@@ -1,0 +1,1105 @@
+//events data https://api.github.com/users/crazydoglady/events
+
+var eventsData = [
+  {
+    "id": "2541347343",
+    "type": "PushEvent",
+    "actor": {
+      "id": 8411222,
+      "login": "crazydoglady",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crazydoglady",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+      },
+  "repo": {
+  "id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 558204264,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "93d2822e09c36007030ff675d78043c34a0ba3b8",
+"before": "18f67dee77800012baf5118e27e1a761592597ee",
+"commits": [
+{
+"sha": "93d2822e09c36007030ff675d78043c34a0ba3b8",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial commi for github assignment",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/93d2822e09c36007030ff675d78043c34a0ba3b8"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-28T07:42:37Z"
+},
+{
+"id": "2541179667",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 558132856,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "18f67dee77800012baf5118e27e1a761592597ee",
+"before": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"commits": [
+{
+"sha": "18f67dee77800012baf5118e27e1a761592597ee",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "semi functional update function using prompt method. not able to get other way to work.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/18f67dee77800012baf5118e27e1a761592597ee"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-28T05:22:05Z"
+},
+{
+"id": "2540513723",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 557867308,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"before": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"commits": [
+{
+"sha": "6785716edcbc671ada6861d85d1d494464cbc9e7",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": " initial commit for products page",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/6785716edcbc671ada6861d85d1d494464cbc9e7"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T22:18:44Z"
+},
+{
+"id": "2538273431",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 556951212,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"before": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"commits": [
+{
+"sha": "09ca097c0b3febb50e770c4d7da4271eaa5dc24c",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "commit styling of product page with images",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/09ca097c0b3febb50e770c4d7da4271eaa5dc24c"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T04:11:30Z"
+},
+{
+"id": "2538194933",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 556918478,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"before": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"commits": [
+{
+"sha": "893f1a923abdf2b1114e87520e79c5d90adcabdc",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial commit for products page",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/893f1a923abdf2b1114e87520e79c5d90adcabdc"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-27T03:04:53Z"
+},
+{
+"id": "2535614818",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555880104,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"before": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"commits": [
+{
+"sha": "8558eae387a5a5bcd75087ddd354e0c5da895058",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "finished functionality in photo album",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/8558eae387a5a5bcd75087ddd354e0c5da895058"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T04:16:31Z"
+},
+{
+"id": "2535583531",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555866480,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"before": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"commits": [
+{
+"sha": "af4da73aa2d1474272b37d5155ddf412f0d7a356",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "final functional elements added to photo album.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/af4da73aa2d1474272b37d5155ddf412f0d7a356"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T03:38:22Z"
+},
+{
+"id": "2535515055",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555837277,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"before": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"commits": [
+{
+"sha": "4cbb7bbd9edca91a05b9333f15465a786dae1ea0",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "finishing touches on peralta full size layout, responsive elements still work in progress.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/4cbb7bbd9edca91a05b9333f15465a786dae1ea0"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-26T02:21:04Z"
+},
+{
+"id": "2535102682",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"push_id": 555644536,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"before": "4d2026f0be57acec5235d267b217e56851a3b584",
+"commits": [
+{
+"sha": "24521c2b9410d6f243491cab8a8f8c4a078e1037",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "adding homework assignments to unique repo",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/valhw/commits/24521c2b9410d6f243491cab8a8f8c4a078e1037"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-25T18:01:37Z"
+},
+{
+"id": "2535100942",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"ref": "master",
+"ref_type": "branch",
+"master_branch": "master",
+"description": "Homework assignments",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-25T17:59:31Z"
+},
+{
+"id": "2535100437",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29824054,
+"name": "crazydoglady/valhw",
+"url": "https://api.github.com/repos/crazydoglady/valhw"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "Homework assignments",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-25T17:58:56Z"
+},
+{
+"id": "2535031423",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 555611028,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "d323961daadc1300a0b4ac441b354d5f1afe1c51",
+"before": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"commits": [
+{
+"sha": "d323961daadc1300a0b4ac441b354d5f1afe1c51",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "corrected JS functions homeowrk into .forEach loop",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/d323961daadc1300a0b4ac441b354d5f1afe1c51"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-25T16:29:33Z"
+},
+{
+"id": "2534176155",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 555216783,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"before": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"commits": [
+{
+"sha": "dfa21d1cf8475249635ca3236aad7507a8b0c4fe",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "styling for events assignment and removed duplicate event types",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/dfa21d1cf8475249635ca3236aad7507a8b0c4fe"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-24T17:44:09Z"
+},
+{
+"id": "2531608667",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 554148954,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"before": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"commits": [
+{
+"sha": "86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "Event Trivia game is functional.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/86db3dfbd85a7d3e15d575126bfcee4cb13bd3d5"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T09:01:50Z"
+},
+{
+"id": "2531480879",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 554094537,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"before": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"commits": [
+{
+"sha": "c72c057b9cfb5f91c2299bc88513d9616dadc9da",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "jquery events trivia game, some are working",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/c72c057b9cfb5f91c2299bc88513d9616dadc9da"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T07:29:27Z"
+},
+{
+"id": "2531183969",
+"type": "CreateEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 29713358,
+"name": "crazydoglady/jquery",
+"url": "https://api.github.com/repos/crazydoglady/jquery"
+},
+"payload": {
+"ref": null,
+"ref_type": "repository",
+"master_branch": "master",
+"description": "jquery info",
+"pusher_type": "user"
+},
+"public": true,
+"created_at": "2015-01-23T02:48:51Z"
+},
+{
+"id": "2531172025",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553964637,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"before": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"commits": [
+{
+"sha": "b77e7284dd60b4b671bd1446d309b923e2a24a0b",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "remame folder; get rid of whitespace",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/b77e7284dd60b4b671bd1446d309b923e2a24a0b"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T02:39:10Z"
+},
+{
+"id": "2531160940",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553960190,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"before": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"commits": [
+{
+"sha": "ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "cleanup",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/ba31865ce4c8aa75d914b7f3c8aa1941aa0afac2"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T02:30:26Z"
+},
+{
+"id": "2531055458",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553918542,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"before": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"commits": [
+{
+"sha": "7b12e99655090bf3f4736fecdcbe5a76104e56b8",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "file reorg, remove some dupliction of files",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/7b12e99655090bf3f4736fecdcbe5a76104e56b8"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-23T01:15:31Z"
+},
+{
+"id": "2528828345",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 553012504,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"before": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"commits": [
+{
+"sha": "b2fe06337eb161e72f777793d264d245d5cfa847",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "IT WORKS, not pretty and oncei mages enlarge cannot get them back to small.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/b2fe06337eb161e72f777793d264d245d5cfa847"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T08:35:25Z"
+},
+{
+"id": "2528697190",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 552957099,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"before": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"commits": [
+{
+"sha": "cb827c2b063d6ba96d3004184d5dcef749ff0d58",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "I WROTE A FUNCTION AND IT WORKS, still have some work to do.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/cb827c2b063d6ba96d3004184d5dcef749ff0d58"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T06:55:59Z"
+},
+{
+"id": "2528567642",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 552904223,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"before": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"commits": [
+{
+"sha": "5a498df04a3a16ea1dccce7513c4cf9a7f84390f",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "initial push for photo gallery",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/5a498df04a3a16ea1dccce7513c4cf9a7f84390f"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-22T04:59:39Z"
+},
+{
+"id": "2525748262",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 551779213,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"before": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"commits": [
+{
+"sha": "7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "file reorg and jsFunction homework",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/7afac7e5cc7adbe3cf126c9090de5dae74dc5dfd"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-21T05:11:58Z"
+},
+{
+"id": "2524770731",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 551396448,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"before": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"commits": [
+{
+"sha": "dfec38d345fd82e9d410dc95c1cba59185c3856a",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "formatting fixes to peralta, it's getting there.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/dfec38d345fd82e9d410dc95c1cba59185c3856a"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T19:58:43Z"
+},
+{
+"id": "2523170955",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550740667,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"before": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"commits": [
+{
+"sha": "2dd866550d6c454fb091f592a7b624ef66f09721",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "I give up",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/2dd866550d6c454fb091f592a7b624ef66f09721"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T07:54:51Z"
+},
+{
+"id": "2523115706",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550717387,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"before": "c523ef833c7ec51514104e61e8b711165e282306",
+"commits": [
+{
+"sha": "356536cc4ee3b9ae5e9b34332ad31d7304beb981",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "this assignment is going to kill me",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/356536cc4ee3b9ae5e9b34332ad31d7304beb981"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-20T07:09:07Z"
+},
+{
+"id": "2522525859",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550474601,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "c523ef833c7ec51514104e61e8b711165e282306",
+"before": "dd53168bbc1905f38147f24648090d26cc352bff",
+"commits": [
+{
+"sha": "c523ef833c7ec51514104e61e8b711165e282306",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "layout issues sort of fixed, work to be continued.",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/c523ef833c7ec51514104e61e8b711165e282306"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-19T22:53:54Z"
+},
+{
+"id": "2522372582",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550412772,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "dd53168bbc1905f38147f24648090d26cc352bff",
+"before": "71cab0cc84f01e989a72681f8d3ddde8812beb09",
+"commits": [
+{
+"sha": "dd53168bbc1905f38147f24648090d26cc352bff",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "layout work",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/dd53168bbc1905f38147f24648090d26cc352bff"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-19T21:34:35Z"
+},
+{
+"id": "2522272073",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550372811,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "71cab0cc84f01e989a72681f8d3ddde8812beb09",
+"before": "96e6c6a02a0810a9ef6c2f2a6e96129abb8ad0c9",
+"commits": [
+{
+"sha": "71cab0cc84f01e989a72681f8d3ddde8812beb09",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "layout",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/71cab0cc84f01e989a72681f8d3ddde8812beb09"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-19T20:45:07Z"
+},
+{
+"id": "2521750632",
+"type": "PushEvent",
+"actor": {
+"id": 8411222,
+"login": "crazydoglady",
+"gravatar_id": "",
+"url": "https://api.github.com/users/crazydoglady",
+"avatar_url": "https://avatars.githubusercontent.com/u/8411222?"
+},
+"repo": {
+"id": 28793464,
+"name": "crazydoglady/Iron-Yard",
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard"
+},
+"payload": {
+"push_id": 550166514,
+"size": 1,
+"distinct_size": 1,
+"ref": "refs/heads/master",
+"head": "96e6c6a02a0810a9ef6c2f2a6e96129abb8ad0c9",
+"before": "eef28302c2af8c294e0dfe317aa0115fd910faff",
+"commits": [
+{
+"sha": "96e6c6a02a0810a9ef6c2f2a6e96129abb8ad0c9",
+"author": {
+"email": "valkharvey@gmail.com",
+"name": "CrazyDogLady"
+},
+"message": "photo positioning changes",
+"distinct": true,
+"url": "https://api.github.com/repos/crazydoglady/Iron-Yard/commits/96e6c6a02a0810a9ef6c2f2a6e96129abb8ad0c9"
+}
+]
+},
+"public": true,
+"created_at": "2015-01-19T16:38:44Z"
+}
+]

@@ -1,59 +1,101 @@
-* {
-  border: 1px solid red; }
-
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: helvetica, sans-serif; }
 
-header {
-  background: #F5F5F5;
-  width: 100%;
-  max-height: 150px; }
-
-nav {
-  display: inline-block; }
-
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none;
-  color: #4183C4; }
+li {
+  list-style-type: none; }
 
 a {
   text-decoration: none; }
 
-.main {
-  width: 70%;
-  margin: 0 0% 0 0;
-  display: inline-block; }
+a:hover {
+  text-decoration: underline; }
 
-.repositories {
-  width: 75%;
-  margin: 0 0 0 20%;
-  display: inline-block; }
+h1 {
+  color: black;
+  font-family: arial, sans-serif; }
 
-.public {
-  width: 70%;
+h2 {
+  color: #4183C4; }
+
+h3 {
+  color: #BBBBBB; }
+
+h4 {
+  color: black;
+  font-weight: bold; }
+
+h5 {
+  color: #666666; }
+
+h6 {
+  color: #BBBBBB; }
+
+header {
+  background: #BBBBBB;
+  width: 100%;
+  min-height: 75px;
+  max-height: 150px; }
+  header nav {
+    background: #BBBBBB; }
+  header ul {
+    display: inline-block;
+    background: #BBBBBB; }
+    header ul li {
+      list-style-type: none;
+      display: inline-block;
+      background: #BBBBBB; }
+
+.searchbar {
+  float: left; }
+
+.taskbar {
+  float: right; }
+
+.repos {
+  width: 60%;
   margin: 0 0 0 0;
-  color: #4183C4;
-  display: none; }
-  .public li {
-    float: right;
-    width: 70%;
-    margin: 0 0% 0 0;
-    list-style-type: none; }
+  display: inline-block; }
+  .repos article {
+    min-height: 50px;
+    bottom-border: 1px solid #BBBBBB; }
+
+.menu ul li {
+  display: inline-block; }
+  .menu ul li a {
+    display: inline-block;
+    text-decoration: none; }
+
+.repoSearchBar ul {
+  display: inline-block; }
+  .repoSearchBar ul li {
+    display: inline-block; }
+
+article h2 {
+  color: #4183C4; }
 
 aside {
   width: 20%;
-  height: 100%;
+  margin: 0 0 0 19%;
   float: left;
-  margin: 0 0 0 10%; }
-  aside img {
-    max-height: 300px;
-    max-width: 250px; }
+  display: inline-block; }
 
 footer {
   position: relative;
   width: 100%;
-  min-height: 150px; }
+  min-height: 50px;
+  max-height: 100px; }
 
+.foot1, .foot2 {
+  display: inline-block;
+  width: 28%; }
+  .foot1 ul, .foot2 ul {
+    display: inline-block; }
+    .foot1 ul li, .foot2 ul li {
+      display: inline-block; }
+      .foot1 ul li a, .foot2 ul li a {
+        text-decoration: none; }
+
+.octicon {
+  color: #666666; }
