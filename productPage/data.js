@@ -7,6 +7,16 @@ var products = [
   edit: "Edit",
   delete: "Remove",
 },
+//template used to add to DOM when using underscore
+// templates.product = [
+// "<article data-index='<%= idx %>'>",
+// "<h2><%= name %></h2>",
+// "<img src='<%= image %>'/>",
+// "<p><%= description %></p>",
+// "<button>PRICE</button>",
+// "<button class='edit'>EDIT</button>",
+// "<button class='deleteProduct'>REMOVE</button>",
+// "</article>"
 
 {
   name: "Venice",
