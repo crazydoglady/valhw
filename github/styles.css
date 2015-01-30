@@ -80,6 +80,10 @@ aside {
   margin: 0 0 0 19%;
   float: left;
   display: inline-block; }
+  aside img {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px; }
 
 footer {
   position: relative;
@@ -99,3 +103,9 @@ footer {
 
 .octicon {
   color: #666666; }
+
+activity {
+  display: none; }
+
+.active {
+  display: inline; }

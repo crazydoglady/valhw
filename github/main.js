@@ -12,6 +12,7 @@ var gitPage = {
   initEvents: function() {
     gitPage.renderUser();
     gitPage.renderAllRepos(repoData);
+    gitPage.renderAllEvents(eventsData);
     console.log("event");
   },
   // renderPost: function (post, index, array) {
@@ -27,23 +28,47 @@ var gitPage = {
   console.log("renderuser");
   },
 
-  renderRepo: function (){
+  renderRepo: function (currentItem, index, array){
     var repo = _.template(templates.repo);
-    $('section').append(repo(repoData));
+    // var html = "";
+    $('.repoPost').append(repo(currentItem));
     console.log("renderrepo");
   },
-
-  renderAllRepos: function(array) {
+  renderAllRepos: function (array) {
     _.each(array, gitPage.renderRepo);
-    }
+    console.log("renderallrepo");
+  },
+
+  renderEvent: function (currentItem, index, array){
+  var events = _.template(templates.activity);
+  $('.activity').append(events(currentItem));
+  console.log("renderevent");
+},
+
+   renderAllEvents: function (array) {
+     _.each(array, gitPage.renderEvent);
+     console.log("renderallevents");
+   }
+
+    // var event =_.template(templates.activity);
+    //
+    // if( 'type' === 'PushEvent') {
+    //
+    // } else if (type === forked){
+    //
+    // } else if(type === Created){
+    //
+    // }
+
+
 };
 
 
 $(document).ready( function() {
   gitPage.init();
 
- $('.activity').on('click', (function() {
-   $(this).toggle('active');
+ $('.activity').on('click', function() {
+   $(this).siblings().toggle('active');
    $('.repositories').hide();
    //make repo invisible and view activity
  });

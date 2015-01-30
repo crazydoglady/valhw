@@ -2,7 +2,7 @@ var templates = {};
 
 templates.userInfo=[
 "<div class='user'>",
-"img src= '<%= avatar_url %>' width='230' height = '230'>",
+"<img src='<%= userData.avatar_url %>'/>",
 "<h1><%= name %><h1>",
 "<h3><%= login %></h3>",
 "<p><span class='octicon octicon-location '></span><%= location %></p>",
@@ -18,29 +18,34 @@ templates.userInfo=[
 ].join("");
 
 templates.repo = [
+"<div class='repos'>",
 "<article>",
 "<h2><%= name %></h2>",
-"<h5><%=  name %></h5>",
+"<h5><%=  description %></h5>",
 "<h6><%= updated_at %></h6>",
 "<span><%= language %></span>",
 "<span class='octicon octicon-star'></span>",
 "<span><%= stargazers_count %></span>",
 "<span class='octicon octicon-git-branch'></span>",
 "<span><%= forks_count %></span>",
-"</article>"
+"</article>",
+"</div>"
 
 ].join("");
 
 
 templates.activity = [
+"<div class='activity'>",
 "<section>",
 "<article>",
 "<span class='octicon octicon-git-commit'></span>",
-"<h6><%= created_at %></h6>",
-"<p><%= login %> pushed to <%= master_branch %> at <%= name %>",
-"<img src = <%= avatar_url %> />",
-"<p> <%= message %> </p>",
-"</section>"
+"<h6><%= actor.login %></h6>",
+"<p>pushed to <%= payload.ref %> branch at <%= repo.name %></p>",
+"<img src ='<%= actor.avatar_url %>' width='20' height= '20' />",
+"<p> <%= payload.push_id %> </p>",
+"</article>",
+"</section>",
+"</div>"
 
 ].join("");
 
