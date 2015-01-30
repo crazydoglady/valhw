@@ -35,7 +35,7 @@ templates.repo = [
 
 
 templates.activity = [
-"<div class='activity'>",
+"<div>",
 "<section>",
 "<article>",
 "<span class='octicon octicon-git-commit'></span>",

@@ -67,10 +67,18 @@ var gitPage = {
 $(document).ready( function() {
   gitPage.init();
 
- $('.activity').on('click', function() {
-   $(this).siblings().toggle('active');
-   $('.repositories').hide();
-   //make repo invisible and view activity
+ $('.activitymenu').click( function(event) {
+   event.preventDefault();
+   $('.activity').toggle('active');
+   $(this).sibling().removeClass('active');
+   console.log("toggle");
+
+ });
+
+ $('.repomenu').click( function(event){
+   event.preventDefault();
+   $('.repopost').toggle('active');
+
  });
 
 });

@@ -104,8 +104,8 @@ footer {
 .octicon {
   color: #666666; }
 
-activity {
+.activity {
   display: none; }
 
-.active {
-  display: inline; }
+.inactive {
+  display: none; }

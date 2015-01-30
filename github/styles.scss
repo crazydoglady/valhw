@@ -136,10 +136,10 @@ footer {
   color: $dkgrey;
 }
 
-activity {
+.activity {
   display: none;
 }
 
-.active {
-  display: inline;
+.inactive {
+  display: none;
 }
