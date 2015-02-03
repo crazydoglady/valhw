@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Using Ajax Practice",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "bandaid.png",
+    "default_popup": "index.html"
+  },
+  "background":{
+    "scripts":["main.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","http://*/*"],
+      "js":["bower_components/jquery/dist/jquery.js","main.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "content_security_policy": "script-src 'self' https://www.reddit.com; object-src 'self' https://www.reddit.com"
+}
