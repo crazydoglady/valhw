@@ -1,14 +1,39 @@
 body {
-  background: #3D5184; }
+  background: #262a2d; }
+
+aside {
+  width: 12%;
+  float: left;
+  display: inline-block; }
 
 h1 {
-  color: #8FFFDE; }
+  color: #3f9ba6;
+  text-align: center; }
 
 h2 {
-  color: #003164; }
+  color: #829e87;
+  text-align: center; }
 
 h3 {
-  color: #Eb88ff; }
+  color: #403f39; }
 
-.col-md-12 {
-  text-align: center; }
+a {
+  text-decoration: none;
+  color: #403f39; }
+
+.contentWrap {
+  width: 85%;
+  margin: 0 0 0 2%;
+  display: inline-block;
+  height: 500px; }
+  .contentWrap img {
+    width: 250px;
+    height: 200;
+    display: inline-block;
+    border: 2px solid #3f9ba6; }
+
+button {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #829e87; }
