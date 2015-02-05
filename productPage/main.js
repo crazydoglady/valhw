@@ -41,34 +41,65 @@ var productsPost = {
   updateProduct: function(event) {
     event.preventDefault();
     var editIndex = $(this).closest('article').data('index');
-    var productName = products[editIndex].name;
-    var productImage = products[editIndex].image;
-    var productDescription = products[editIndex].description;
-    var productPrice = products[editIndex].price;
+    console.log(editIndex);
 
-    var newTitle = prompt("New name for product", productName); //empty field
-      console.log(newTitle);
-      var newImage = prompt("new image", productImage);
-      console.log(newImage);
-      var newDescription = prompt("New Description", productDescription);
-      console.log(newDescription);
-      var newPrice = prompt("New Price", productPrice);
-      console.log(newPrice);
+    // this is good ^^
 
+    //set the form values
+    var title = $(this).prev("h2").val(),
+    var image = $(this).prev("h2").val(),
+    var description = $(this).prev("h2").val(),
+    var price = $(this).prev("h2").val()
+
+    // for each different part of your data
+
+
+    $('input.editTitle').val(title);
+    // for each part
+
+
+
+    var updateProduct = {
+      title: $(this).closest('article').find('input.editTitle').val(),// gets the value from form
+      image: $(this).closest('article').find('input.editImage').val(),
+      description: $(this).closest('article').find('input.editdescription').val(),
+      price: $(this).closest('article').find('input.editPrice').val(),
+    };
+      // blah.blah.val("my stuff") // sets the value to "my stuff"
+      products.splice(editIndex, 1, updateProduct);
+      productsPost.renderAllProducts(products);
+
+    },
+
+
+    // var productName = products[editIndex].name;
+    // var productImage = products[editIndex].image;
+    // var productDescription = products[editIndex].description;
+    // var productPrice = products[editIndex].price;
+    //
+    // var newTitle = prompt("New name for product", productName); //empty field
+    //   console.log(newTitle);
+    //   var newImage = prompt("new image", productImage);
+    //   console.log(newImage);
+    //   var newDescription = prompt("New Description", productDescription);
+    //   console.log(newDescription);
+    //   var newPrice = prompt("New Price", productPrice);
+    //   console.log(newPrice);
+    //
 
     // products[editIndex].name=newTitle;
 
-    var editProduct = {
-    name:  newTitle,
-    image:  newImage,
-    description:  newDescription,
-    price: newPrice,
-  };
-
-  products.splice(editIndex, 1);
-  console.log(editProduct);
-
-  productsPost.renderProduct(editProduct);
+    // var editProduct = {
+    // name:  newTitle,
+    // image:  newImage,
+    // description:  newDescription,
+  //   // price: newPrice,
+  // };
+  //
+  // products.splice(editIndex, 1);
+  // console.log(editProduct);
+  //
+  // productsPost.renderProduct(editProduct);
 
 
     // console.log($(this).val(name) ); doesnt work
@@ -102,7 +133,6 @@ var productsPost = {
     // productPag.renderAllProducts(products);
 
     //submit and refresh page with new text
-  },
 
   deleteProduct: function(event) {
     var productIndex = $(this).closest('article').data('index');

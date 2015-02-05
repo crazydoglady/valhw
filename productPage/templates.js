@@ -5,7 +5,7 @@ templates.product = [
 "<h2><%= name %></h2>",
 "<img src='<%= image %>'/>",
 "<p><%= description %></p>",
-"<button>PRICE</button>",
+"<button><%= price %></button>",
 "<button class='edit'>EDIT</button>",
 "<button class='deleteProduct'>REMOVE</button>",
 "</article>"
