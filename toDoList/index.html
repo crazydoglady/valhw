@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+  <title>DoDo List</title>
+  <script type="html/template" id="taskTmpl">
+  <article data-taskid="<%= _id %>">
+      <h3><%= name %></h3>
+      <h4><%= dueDate %></h4  >
+      <p><%= description %><  /p>
+      <button class="deleteTask">Delete</button> | <button class="showEditTask">Edit</button>
+    <form action="" class="editTask">
+      <div class="form">
+        <input type="text" class="control" name="editName" value"<%= name %">
+        </div>
+      <div class="form">
+        <input type="text" class="control" name="editDueDate" value="<% dueDate %>">
+      </div>
+        <div class="form">
+        <textarea name="editDescription" class="control" id="" cols="30" rows="10  "> <%= description   %>
+          </textarea>
+      </div>
+      <button type="submit" class="newTaskButton"><h2>Edit Task</h2></button>
+    </form>
+  </article>
+  </script>
+</head>
+<body>
+<header>
+  <img src="dodo.jpg" alt="">
+  <h1>Welcome to DODO. </h1>
+  <h2>Helping your "TODO's" go extinct since 2015.</h2>
+</header>
+<div class="container">
+  <section>
+    <h2>PROJECT NAME</h2>
+    <article>
+      <h3>TaskName</h3>
+      <h4>DueDate</h4>
+      <p>Description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos assumenda laudantium et dolorem cupiditate voluptatum earum praesentium mollitia pariatur obcaecati! Sequi rem quidem ratione similique quam repellat alias asperiores animi.</p>
+    </article>
+    <form id="createTask" action="">
+    <div class="form">
+      <input type="text" class="form" name="newName" value="Task Name">
+    </div>
+    <div class="form">
+      <input type="text" class="form" name="newDueDate" value="Due Date">
+    </div>
+    <div class="form">
+      <textarea name="newDescription" class="form" id="" cols="30" rows="10">
+        What ya doin'?</textarea>
+    </div>
+    <button type="submit" class="newTaskButton">Add Task</button>
+  </form>
+  </section>
+</div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>

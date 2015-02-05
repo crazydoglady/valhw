@@ -1,0 +1,63 @@
+$droid : 'Droid Serif', serif;
+$grey: #cecaca;
+$dark: #494848;
+$teal: #91bcbc;
+
+body{
+  margin: 0;
+  padding: 0;
+  color: $dark;
+}
+h1 {
+  font-family: $droid;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 0 10px;
+}
+h2 {
+  font-family: $droid;
+  font-style: italic;
+  color: $teal;
+  float: right;
+  margin: 1% 1% 0 1%;
+}
+h3{
+  color: $dark;
+}
+h4{
+  color: $teal;
+}
+header{
+  width: 90%;
+  min-height: 140px;
+  margin: 20px 5% 0 5%;
+  border: 5px solid $grey;
+  img{
+    min-height: 100px;
+    max-width: 20%;
+    display: inline-block;
+    float: right;
+    margin: 1% 0 1% 0;
+  }
+}
+
+section {
+  @extend header;
+}
+
+article {
+  margin: 1% 1% 1% 1%;
+}
+form {
+  margin: 0 0 0 5%;
+}
+
+//jQuery classes
+
+.show {
+  display: block;
+}
+
+.editTask {
+  display:none;
+}
