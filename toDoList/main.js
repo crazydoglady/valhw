@@ -2,26 +2,26 @@ var tasks = {
   init: function(){
     tasks.initStyling(); //calls styling functions
     tasks.initEvents(); //calls Events functions
-
   },
   initStyling: function() {
     tasks.renderTasks(); //adds all to page by calling render function
-
   },
   initEvents: function() {
 
-  $('section').on('click', '.showEditTask', function(event){
+  $('section').on('click','.showEditTask', function (event) {
     event.preventDefault();
-    $(this).closest('article').find('.editTask').toggleClass('show');
+    console.log("edit triggered");
+    $(this).closest('article').find('.editTask').toggleClass("show");
+    console.log('after Edit');
   }); //end click event for .showEditTask
 
-  $('section').on('submit', '.editTask', function (event){
+  $('section').on('submit', '.editTask', function (event) {
     event.preventDefault();
     var taskid = $(this).closest('article').data('taskid');
     var editedTask= {
      name: $(this).find('input[name="editName"]').val(),
      dueDate: $(this).find('input[name="editDueDate"]').val(),
-     description: ($this).find('textarea[name="editDescription"]').val()
+     description: $(this).find('textarea[name="editDescription"]').val()
    }; //end editedTask
    tasks.updateTask(taskid, editedTask); //calls update function with taskId and new task info
   }); //end submit for .editTask
@@ -31,10 +31,9 @@ var tasks = {
     var newTask = {
       name: $(this).find('input[name="newName"]').val(),
       dueDate: $(this).find('input[name="newDueDate"]').val(),
-      description: $(this).find('textarea[name="editNewDescription"]').val()
+      description: $(this).find('textarea[name="newDescription"]').val()
     };//end newTask
     tasks.createTask(newTask);
-
   }); //end submit event for createTask Id
 
   $('section').on('click', '.deleteTask', function (event) {
@@ -59,7 +58,7 @@ var tasks = {
       type:'GET',
       success: function(tasks) {
         console.log(tasks);
-        var renderTemp = _.template($('#taskTmpl')).html();
+        var renderTemp = _.template($('#taskTmpl').text());
         var markup = "";
 
         tasks.forEach(function (item, idx, arr) {
@@ -101,7 +100,7 @@ var tasks = {
       }
     }); //end ajax for delete
   },
-  updateTask: function (id, task) { //shit just got real, yo
+  updateTask: function (id, task) { //just got real
     $.ajax({
       url: tasks.config.url + '/' + id, //baseUrl adds slash and Id to url. not sure why...
       data: task,

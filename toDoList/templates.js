@@ -14,7 +14,7 @@ templates.task = [
 "<input type="text" class="control" name="editdueDate" value="<% dueDate %>" >",
 "</div>",
 "<div class="form">",
-"<textarea name="editDescription" class="control" id="" cols="30" rows="10  "> <%= description %> </textarea>",
+"<textarea name="editDescription" class="control" id="" cols="30" rows="10"> <%= description %> </textarea>",
 "</div>",
 "<button class=type="submit"><h2>EditTask</h2></button>",
 "</form>",
